@@ -71,14 +71,17 @@ html, body{
     width: 20%;
 }
 .scott{
-
     height: 100px;
     width: 20%;
 }
 .blog{
-
     height: 100px;
     width: 25%;
+}
+.line{
+    display: flex;
+    justify-content:flex-end;
+    align-items:flex-end;
 }
 @media only screen and (max-width: 600px) {
     .header{
@@ -88,10 +91,10 @@ html, body{
         padding: 0 !important;
     }
     .socials a img{
-        height: 50px;
+        height: 30px;
     }
     .socials img{
-        height: 50px;
+        height: 30px;
     }
     .button{
         width: 100px;
