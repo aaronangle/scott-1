@@ -23,6 +23,9 @@ html, body{
 .fam{
     width: 100%;
 }
+.picture{
+    min-width: 200px;
+}
 .button{
     width: 200px;
 }
