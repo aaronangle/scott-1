@@ -24,7 +24,7 @@ html, body{
     width: 100%;
 }
 .button{
-    width: 100%;
+    width: 200px;
 }
 .experience{
     width: 100%;
@@ -89,5 +89,8 @@ html, body{
     }
     .socials img{
         height: 50px;
+    }
+    .button{
+        width: 100px;
     }
   }
