@@ -10,9 +10,13 @@ html, body{
 .button-container1{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+}
+..button-container1::before,
+..button-container1::after {
+  content: '';
 }
 .socials{
     display: flex;
