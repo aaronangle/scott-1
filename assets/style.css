@@ -14,8 +14,8 @@ html, body{
     align-items: center;
     flex-wrap: wrap;
 }
-..button-container1::before,
-..button-container1::after {
+.button-container1::before,
+.button-container1::after {
   content: '';
 }
 .socials{
